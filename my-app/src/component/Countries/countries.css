@@ -1,0 +1,12 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.visited{
+    background-color: bisque;
+}
+
+.btn{
+    background-color: rgb(247, 7, 167);
+    color: white;
+}
