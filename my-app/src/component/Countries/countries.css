@@ -1,6 +1,7 @@
 .country-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
 }
 .visited{
     background-color: bisque;
@@ -9,4 +10,9 @@
 .btn{
     background-color: rgb(247, 7, 167);
     color: white;
+}
+
+.visite{
+    border: 2px solid red;
+    margin-bottom: 10px;
 }

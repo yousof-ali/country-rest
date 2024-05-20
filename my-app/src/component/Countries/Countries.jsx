@@ -21,15 +21,17 @@ const Countries = () => {
            
     }
     
-    console.log(countr)
+    
 
     return (
         <>
         <p>hello from country{countrys.length}</p>
-        <div>
+        <div className="visite">
             <h5>Visited country {countr.length}</h5>
             <ul>
-                <li>{}</li>
+                {
+                    countr.map(coun=><li key={countr.ccn2}>{coun.name.common}</li>)
+                }
             </ul>
         </div>
         <div className="country-container">
