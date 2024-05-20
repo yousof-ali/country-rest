@@ -16,8 +16,14 @@ const Countries = () => {
 
     
     const haldlevisited = country =>{
-        const newarr = [...countr, country]
-        setCountry(newarr)
+        if(countr.includes(country)){
+            const newarr = [...countr]
+            setCountry(newarr)
+        }
+        else{
+            const newarr = [...countr,country]
+            setCountry(newarr)
+        }
            
     }
     
